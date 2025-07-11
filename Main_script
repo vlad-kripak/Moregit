@@ -1041,7 +1041,3 @@ if not available_days:
 chosen_day = random.choice(available_days)
 used_days.add(chosen_day)
 commit_date = datetime.now() - timedelta(days=chosen_day)
-
-                                  [ Read 243 lines ]
-^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute    ^C Location
-^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify    ^/ Go To Line
